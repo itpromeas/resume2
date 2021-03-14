@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Korkor</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+                $(document).ready(function(){
+                 $(".dropdown, .btn-group").hover(function(){
+                 var dropdownMenu = $(this).children(".dropdown-menu");
+                 if(dropdownMenu.is(":visible")){
+                 dropdownMenu.parent().toggleClass("open");
+                                                                   }
+                                                                   });
+                                  });
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <img src="images/me.png" alt="">
+    </header>
+
+    <h1>My Cv</h1>
+</body>
+</html>
